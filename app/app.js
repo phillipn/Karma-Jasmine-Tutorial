@@ -5,7 +5,10 @@
     'ui.router',
     'api.users',
     'api.pokemon',
-    'components.users'
+    'components.users',
+    'components.profile',
+    'components.missingno',
+    'filters.capitalize'
   ])
   .config(function($urlRouterProvider) {
     $urlRouterProvider.otherwise('/users');
